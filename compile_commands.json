@@ -1,0 +1,189 @@
+[
+    {
+        "directory": "MDK-ARM",
+        "file": "MDK-ARM/startup_stm32f103xb.s",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "MDK-ARM/startup_stm32f103xb.s",
+            "-o",
+            "build/TEST/MDK-ARM/startup_stm32f103xb.o"
+        ]
+    },
+    {
+        "directory": "Core/Src",
+        "file": "Core/Src/main.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Core/Src/main.c",
+            "-o",
+            "build/TEST/Core/Src/main.o"
+        ]
+    },
+    {
+        "directory": "Core/Src",
+        "file": "Core/Src/gpio.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Core/Src/gpio.c",
+            "-o",
+            "build/TEST/Core/Src/gpio.o"
+        ]
+    },
+    {
+        "directory": "Core/Src",
+        "file": "Core/Src/stm32f1xx_it.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Core/Src/stm32f1xx_it.c",
+            "-o",
+            "build/TEST/Core/Src/stm32f1xx_it.o"
+        ]
+    },
+    {
+        "directory": "Core/Src",
+        "file": "Core/Src/stm32f1xx_hal_msp.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Core/Src/stm32f1xx_hal_msp.c",
+            "-o",
+            "build/TEST/Core/Src/stm32f1xx_hal_msp.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+        ]
+    },
+    {
+        "directory": "Drivers/STM32F1xx_HAL_Driver/Src",
+        "file": "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c",
+            "-o",
+            "build/TEST/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+        ]
+    },
+    {
+        "directory": "Core/Src",
+        "file": "Core/Src/system_stm32f1xx.c",
+        "arguments": [
+            "F:/danpianjisheji/Keil_v5/ARM/ARMCC/bin/armcc.exe",
+            "-c",
+            "Core/Src/system_stm32f1xx.c",
+            "-o",
+            "build/TEST/Core/Src/system_stm32f1xx.o"
+        ]
+    }
+]
